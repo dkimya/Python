@@ -1,0 +1,22 @@
+# comment
+print("Hello\nWorld!")
+
+#Types
+int   11
+float 0.1
+str   "Hello\nWorld!"
+
+float(2):2.0
+int(1.1):1
+int("1"):1
+int(True):1
+bool(1):True
+
+#Expressions:
+43+60+16+41
+# 43 operands
+# +  operators (+,-,*,/,//)
+
+#Variables
+my_variable=1
+my_variable:1
