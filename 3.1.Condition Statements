@@ -1,0 +1,31 @@
+Comparison Operators
+
+    equal: ==
+    not equal: !=
+    greater than: >
+    less than: <
+    greater than or equal to: >=
+    less than or equal to: <=
+
+a=6
+a==7
+i>=5 i<6
+i!=6
+"a"!="b"
+
+#Branching
+age = 18
+
+if age > 18:
+    print("you can enter" )
+elif age == 18:
+    print("go see Pink Floyd")
+else:
+    print("go see Meat Loaf" )
+
+print("move on")
+
+Logical operators
+if a or b:
+if a and b:
+if not a:
