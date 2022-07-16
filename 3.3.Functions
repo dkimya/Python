@@ -1,0 +1,22 @@
+a=[3,1,2]
+print(a)
+len(a)
+sum(a)
+b=sorted(a)
+a.sort()
+
+def f(a,b=4):
+    """
+    multiply a and b
+    """
+    return a*b
+f(2,3)
+
+def s(*a):
+    return sum(a)
+s(1,2,3)
+
+def printDictionary(**args):
+    for key in args:
+        print(key + " : " + args[key])
+printDictionary(Country='Canada',Province='Ontario',City='Toronto')
